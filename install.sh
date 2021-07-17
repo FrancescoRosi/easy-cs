@@ -4,7 +4,7 @@ curl -s https://api.github.com/repos/cdr/code-server/releases/latest | grep "bro
 tar -xf code-server*.tar.gz
 rm code-server*.tar.gz
 echo Installing localtunnel...
-npm i -g localtunnel
+npm i --save localtunnel
 echo Generating password...
 echo PASSWORD=$(tr -dc A-Za-z0-9 </dev/urandom | head -c15) >> ~/.profile
 echo CS=$(echo code-server*/bin) >> ~/.profile
