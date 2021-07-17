@@ -2,7 +2,7 @@
 if [ -f "$HOME/.easycsinstalled" ]; then
     source ~/.profile
     echo Booting up code-server and localtunnel...
-    $CS/code-server --bind-addr localhost:6969 --password $PASSWORD > cs.log &
+    $CS/code-server --bind-addr localhost:6969 > cs.log &
     echo Your password is $PASSWORD
     node $LT/lt.js --port 6969
 else
