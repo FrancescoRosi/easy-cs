@@ -8,5 +8,6 @@ npm i --save localtunnel
 echo Generating password...
 echo PASSWORD=$(tr -dc A-Za-z0-9 </dev/urandom | head -c15) >> ~/.profile
 echo CS=$(echo code-server*/bin) >> ~/.profile
+echo LT=$HOME/$REPL_SLUG/node_modules/localtunnel/bin >> ~/.profile
 touch $HOME/.easycsinstalled
 echo Easy Code Server has been installed successfully! You can now run this script again to start code-server.
