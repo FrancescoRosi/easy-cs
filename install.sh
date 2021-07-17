@@ -6,7 +6,7 @@ rm code-server*.tar.gz
 echo Installing localtunnel...
 npm i --save localtunnel
 echo Generating password...
-echo PASSWORD=$(tr -dc A-Za-z0-9 </dev/urandom | head -c15) >> ~/.profile
+echo export PASSWORD=$(tr -dc A-Za-z0-9 </dev/urandom | head -c15) >> ~/.profile
 echo CS=$(pwd)/$(echo code-server*/bin) >> ~/.profile
 echo LT=$(pwd)/node_modules/localtunnel/bin >> ~/.profile
 touch $HOME/.easycsinstalled
