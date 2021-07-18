@@ -7,6 +7,7 @@ if [ -f "$HOME/.easycsinstalled" ]; then
         echo "The password is $PASSWORD"
     elif [[ $1 == "" ]]; then
         echo "For security reasons (and since you didn't specify --showpassword), you need to manually find out your password. All you need to do is open a new terminal instance and type:"
+        echo "  source ~/.profile"
         echo "  echo \$PASSWORD"
         echo "If you're on Replit, you can do so by opening the Shell tab."
         echo "To find out why I did this, visit https://github.com/francescorosi27/easy-cs/wiki/Why-isn't-the-password-outputted-to-the-console-by-default%3F."
