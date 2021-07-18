@@ -20,6 +20,6 @@ if [ -f "$HOME/.easycsinstalled" ]; then
     fi
     node $LT/lt.js --port 6969
 else
-    echo "Looks like it\'s the first time you ran Easy Code Server! Running install script..."
+    echo "Looks like it's the first time you ran Easy Code Server! Running install script..."
     bash install.sh
 fi
