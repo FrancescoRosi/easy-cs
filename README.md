@@ -2,7 +2,7 @@
 Easy Code Server lets you run code-server, a web version of VS Code, very easily. It was originally made to be ran on the **free** ~~VPS~~ IDE [Replit](https://replit.com), but you can run it on any machine with Linux. But why should you use this script and not other ones? Well...  
 1. It doesn't use sudo, meaning you can use it on free IDEs like Replit, Glitch and CS50.
 2. It installs localtunnel, which automatically sets up a public URL for you to login to code-server, port forwarding and SSL.
-3. A secure login password is generated automatically and it gets outputted to the console everytime you launch Easy Code Server, meaning you don't have to remember any password.
+3. A secure login password is generated automatically and it is saved as an environment variable, meaning you don't have to remember any password.
 
 ## How to run it on Replit for free
 1. [Create a Replit account](https://replit.com/signup).
