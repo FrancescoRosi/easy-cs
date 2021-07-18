@@ -8,7 +8,7 @@ Easy Code Server lets you run code-server, a web version of VS Code, very easily
 1. [Create a Replit account](https://replit.com/signup).
 2. After you've created an account, click [here](https://replit.com/github/francescorosi27/easy-cs) to create a new repl, which is just a container where you can run code, containing all the necessary files.
 3. Click "Run" and wait for the setup to finish. After it is done, it will tell you to run it again, so do that.
-4. Visit the URL that gets outputted in the console, click "Click to continue" (you will only have to click it the first time) and enter the password, which also gets outputted to the console.
+4. Visit the URL that gets outputted in the console, click "Click to continue" (you will only have to click it every 7 days) and enter the password. To find out your password, follow the instructions on the console.
 5. Profit!  
 
 (note: do not delete the .easycsinstalled file in your home directory, as it is the only way to check if Easy Code Server has been installed successfully.)
