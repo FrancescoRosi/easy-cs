@@ -10,7 +10,7 @@ if [ -f "$HOME/.easycsinstalled" ]; then
         echo "  source ~/.profile"
         echo "  echo \$PASSWORD"
         echo "If you're on Replit, you can do so by opening the Shell tab."
-        echo "To find out why I did this, visit https://github.com/francescorosi27/easy-cs/wiki/Why-isn't-the-password-outputted-to-the-console-by-default%3F."
+        echo "To find out why I did this, visit https://git.io/J8g1N."
     elif [[ $1 == "--help" ]]; then
         echo "--showpassword: outputs the password to the console"
         echo "--help: show this help screen"
